@@ -17,7 +17,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-get_ipython().run_line_magic('matplotlib', 'inline')
+%matplotlib inline
 class DataA:
     def __init__(self):
         f = lambda x, y : np.random.randn(x, y)
